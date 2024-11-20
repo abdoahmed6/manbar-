@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>منهج المدرسة منبر الإسلام</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #333;
+            color: white;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        h1 {
+            margin-top: 20px;
+        }
+        .menu {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin-top: 20px;
+        }
+        .menu-item {
+            margin: 10px;
+            padding: 20px;
+            border: 2px solid #fff;
+            border-radius: 10px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            cursor: pointer;
+            width: 150px;
+        }
+        .menu-item:hover {
+            transform: scale(1.1);
+            box-shadow: 0 0 15px rgba(255, 255, 255, 0.5);
+        }
+        .menu-item img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+        .menu-item p {
+            text-align: center;
+            margin-top: 10px;
+        }
+
+        /* Media Query for small screens */
+        @media (max-width: 768px) {
+            .menu-item {
+                width: 120px;
+                padding: 15px;
+            }
+            .menu-item img {
+                width: 100%;
+            }
+            h1 {
+                font-size: 1.5em;
+            }
+        }
+
+        /* Media Query for even smaller screens */
+        @media (max-width: 480px) {
+            .menu-item {
+                width: 100px;
+                padding: 10px;
+            }
+            .menu-item img {
+                width: 100%;
+            }
+            h1 {
+                font-size: 1.2em;
+            }
+            .menu {
+                justify-content: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>مناهج المدرسة منبر الإسلام</h1>
+    
+    <div class="menu">
+        <!-- أولى ابتدائي -->
+        <div class="menu-item" onclick="window.location.href='first_grade.html'">
+            <img src="first_grade_image.jpg" alt="أولى ابتدائي">
+            <p>أولى ابتدائي</p>
+        </div>
+
+        <!-- ثاني ابتدائي -->
+        <div class="menu-item" onclick="window.location.href='second_grade.html'">
+            <img src="second_grade_image.jpg" alt="ثاني ابتدائي">
+            <p>ثاني ابتدائي</p>
+        </div>
+
+        <!-- ثالث ابتدائي -->
+        <div class="menu-item" onclick="window.location.href='third_grade.html'">
+            <img src="third_grade_image.jpg" alt="ثالث ابتدائي">
+            <p>ثالث ابتدائي</p>
+        </div>
+
+        <!-- رابع ابتدائي -->
+        <div class="menu-item" onclick="window.location.href='fourth_grade.html'">
+            <img src="fourth_grade_image.jpg" alt="رابع ابتدائي">
+            <p>رابع ابتدائي</p>
+        </div>
+
+        <!-- خامس ابتدائي -->
+        <div class="menu-item" onclick="window.location.href='fifth_grade.html'">
+            <img src="fifth_grade_image.jpg" alt="خامس ابتدائي">
+            <p>خامس ابتدائي</p>
+        </div>
+
+        <!-- سادس ابتدائي -->
+        <div class="menu-item" onclick="window.location.href='sixth_grade.html'">
+            <img src="sixth_grade_image.jpg" alt="سادس ابتدائي">
+            <p>سادس ابتدائي</p>
+        </div>
+
+        <!-- أول إعدادي -->
+        <div class="menu-item" onclick="window.location.href='first_year_secondary.html'">
+            <img src="first_year_secondary_image.jpg" alt="أول إعدادي">
+            <p>أول إعدادي</p>
+        </div>
+
+        <!-- ثاني إعدادي -->
+        <div class="menu-item" onclick="window.location.href='second_year_secondary.html'">
+            <img src="second_year_secondary_image.jpg" alt="ثاني إعدادي">
+            <p>ثاني إعدادي</p>
+        </div>
+
+        <!-- ثالث إعدادي -->
+        <div class="menu-item" onclick="window.location.href='third_year_secondary.html'">
+            <img src="third_year_secondary_image.jpg" alt="ثالث إعدادي">
+            <p>ثالث إعدادي</p>
+        </div>
+    </div>
+
+</body>
+</html>
